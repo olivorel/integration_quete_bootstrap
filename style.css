@@ -1,0 +1,325 @@
+/*tables*/
+.table th{
+    font-size: 3vh;
+}
+.container-fluid{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+/*body & h..*/
+body{
+    background: url(images/_bg_light.png);
+    font-family: 'Party Business',sans-serif;
+}
+
+
+h2{
+    text-align: center;
+}
+
+h4{
+    font-family: 'Party Business',sans-serif;
+}
+/*NAVBAR*/
+
+.navbar{
+    background-color: rgb(255, 115, 0);
+    border-color: rgb(255, 115, 0);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navbar .nav > li > a {
+    color: white;
+    font-family: 'Aniron', serif;
+}
+
+.navbar .nav > li > a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+.divider-vertical{
+    color: white;
+    padding-top: 10px;
+}
+
+/*CAROUSSEL*/
+
+.carousel-inner > .item > img {
+    margin: auto;
+}
+
+.carousel {
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.carousel-caption {
+    font-size: 2em;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+/*TITRE + THUMBNAILS*/
+
+.fellows, .hunter, .join{
+    font-size: 2em;
+    font-family: 'Aniron', serif;
+}
+
+.alive{
+    color: black
+}
+
+.symboleFirst{
+    font-family: 'Tengwar Cursive', sans-serif;
+    font-size: 1em;
+    color:rgb(255, 115, 0);
+}
+
+.nav-tabs > li, .nav-pills > li {
+    float:none;
+    display:inline-block;
+    background-color: transparent;
+    font-family: 'Aniron',serif;
+    font-size: 1.5em;
+}
+
+.nav-pills {
+    text-align:center;
+}
+
+.nav-pills>li>a{
+    color: grey;
+}
+
+.nav-pills>li>a:hover{
+    color: rgb(255, 115, 0);
+    text-decoration-line: underline;
+    background: none;
+}
+
+
+
+/*JUMBOTRON*/
+
+.jumbotron{
+    padding:15px;
+    color: white;
+    background:url("images/_bg_dark.png");
+    text-align: center;
+}
+
+.symboletwo{
+    font-family: 'Tengwar Cursive',serif;
+    font-size: 1em;
+    color:rgb(255, 115, 0);
+}
+
+.lorem{
+    text-align: justify;
+}
+
+.coin{
+    border-radius: 50%;
+}
+
+.contact{
+    background: rgb(255, 115, 0);
+    border-color: rgb(255, 115, 0);
+    color: black;
+    font-size: 1.5em;
+}
+
+.contact:hover{
+    background: rgb(255, 115, 0);
+    border-color: rgb(255, 115, 0);
+    color: black;
+    font-size: 1.5em;
+}
+
+/*MEDIA*/
+
+
+.symbolethree{
+    font-family: 'Tengwar Cursive',serif;
+    font-size: 1em;
+    color: rgb(255, 115, 0);
+
+}
+.media-heading{
+    font-size: 2.5em;
+    color:rgb(255, 115, 0);
+}
+
+.buttonrace{
+    background-color:rgb(40, 41, 43);
+    border: none ;
+    color:rgb(255, 115, 0);
+    width: 100px;
+    height: 30px;
+    font-size:1.5em;
+
+}
+
+/*JUMBOTRON-2*/
+
+.panelfont{
+    background: url("images/_bg_dark.png")
+}
+
+.ring{
+    color:white;
+    font-size:2em;
+    font-family: 'Aniron',serif;
+}
+
+.panel{
+    font-family: 'Aniron',serif;
+    background: url("images/_bg_light.png")
+}
+
+.panel-default>.panel-heading{
+    background-color: rgb(255, 115, 0);
+    color: white;
+}
+
+.panel.panel-default{
+    margin-left: 5vw;
+    margin-right:5vw;
+}
+
+.sauron{
+    font-family: 'Party Business',sans-serif;
+    font-size:2em;
+}
+
+.lignes{
+    padding:0;
+    margin: 0;
+    padding-bottom: 15px;
+}
+
+.titre{
+    font-size: 1.5em;
+}
+
+hr {
+    border: none;
+    border-bottom: 2px solid #000000;
+    width: 95%;
+  }
+
+.precious{
+    font-family: 'Party Business',sans-serif;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 50px;
+}
+
+/*WE NEED YOU*/
+
+.info{
+    font-family: 'Aniron', serif;
+    font-size:1vw;
+    text-align: center;
+}
+
+.black{
+    font-size: 1.5vw;
+}
+
+.buttonneed{
+    font-family: 'Aniron', serif;
+    margin: auto 0;
+    text-align: center;
+}
+
+.buttonrule{
+    background-color: rgb(255, 115, 0);
+}
+
+/*Thumbnails*/
+.thumbnail {
+    position: relative;
+    border:2px solid black;
+}
+em{
+    color: orangered;
+}
+h1{
+    font-weight:normal;
+}
+.square_text {
+    display:block;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    background: rgba(255,255,255,0.8);
+    text-align: center;
+    font-size: 2.6em;
+    border-radius:10px;
+
+}
+.square_text_gimli{
+    display:block;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    right: 20px;
+    text-align: center;
+    font-size: 4em;
+    border-radius:10px;
+    color: orangered;
+
+
+}
+.image_title{
+    position: absolute;
+    top:50%;
+    left: 10%;
+    color:white;
+
+
+}
+.image_title_gimli{
+    position: absolute;
+    top:50%;
+    left: 20%;
+    color:white;
+    text-decoration: line-through orangered;
+
+}
+.image_title h1, .image_title_gimli h1{
+    font-size: 2.6em;
+    font-family: 'Aniron', serif;
+    padding-left: 20%;
+}
+
+.thumbnail img{
+    opacity:0.5;
+}
+.thumbnail img:hover{
+    opacity:1.0;
+}
+.thumbnail:hover .image_title
+{
+    display: none;
+}
+.thumbnail:hover .square_text{
+    display:none;
+}
+.caption{
+    background: black;
+    text-align: center;
+}
+.caption h3{
+    font-size: 4vh;
+}
