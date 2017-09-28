@@ -1,3 +1,18 @@
+@font-face {
+    font-family: 'Tengwar Cursive';
+    src: url('fonts/Tengwarc.ttf') format('ttf');
+
+}
+
+@font-face {
+    font-family: 'Party Business';
+    src: url('fonts/partybusiness.ttf') format('ttf');}
+
+@font-face {
+    font-family: 'Aniron';
+    src: url('fonts/anicb.ttf') format('ttf');
+}
+
 /*tables*/
 .table th{
     font-size: 3vh;
