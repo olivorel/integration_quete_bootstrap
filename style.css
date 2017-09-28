@@ -1,16 +1,17 @@
 @font-face {
     font-family: 'Tengwar Cursive';
-    src: url('fonts/Tengwarc.ttf') format('ttf');
+    src: url("/fonts/Tengwarc.ttf"),
+    src: url("/fonts/Tengwarc.rtf");
 
 }
 
 @font-face {
     font-family: 'Party Business';
-    src: url('fonts/partybusiness.ttf') format('ttf');}
+    src: url("/fonts/partybusiness.ttf");}
 
 @font-face {
     font-family: 'Aniron';
-    src: url('fonts/anicb.ttf') format('ttf');
+    src: url("/fonts/anicb___.ttf");
 }
 
 /*tables*/
